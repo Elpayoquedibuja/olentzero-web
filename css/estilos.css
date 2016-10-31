@@ -1,6 +1,16 @@
 body {
   background-color: #D2C566;
   margin: 0;
+  color: #1B75BB;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-left: 2%;
+}
+
+p {
+    font-size: 16px;
 }
 
 figure {
