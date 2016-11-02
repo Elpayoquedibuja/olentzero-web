@@ -6,7 +6,18 @@ body {
 
 h1 {
   font-size: 4rem;
-  padding-left: 2%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h1, h2 {
+    padding-left: 2%;
 }
 
 figure {
@@ -21,11 +32,40 @@ p {
     font-size: 16px;
 }
 
+txt_confirmar {
+  height: 120px;
+}
+
+script {
+  color: red;
+  font-size: 40px;
+}
+
+#btn_confirmar {
+  background-color: #39BDB4;
+  border-radius: 18px;
+  margin-top: 2%;
+  width: 200px;
+  color: white;
+}
+
 #formulario {
   padding-left: 2%;
+  height: 400px;
 }
 
 .formulario {
   font-size: 30px;
+  font-family: 'Verdana';
   width: 90%;
+}
+
+.reducir-texto {
+  font-size: 20px;
+}
+
+  .margin_top {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }
