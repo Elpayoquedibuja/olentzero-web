@@ -89,6 +89,10 @@ script {
   font-size: 110%;
 }
 
+#olentzero {
+  width: 100%;
+}
+
 #olentzero-primer-plano {
   text-align: center;
 }
