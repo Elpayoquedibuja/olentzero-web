@@ -1,5 +1,5 @@
 body {
-  background-color: #D2C566;
+  /*background-color: #BBBDBF;*/
   margin: 0;
   color: #1B75BB;
 }
@@ -20,6 +20,11 @@ h2 {
 
 h1, h2 {
     padding-left: 2%;
+}
+
+#olentzero-primer-plano {
+  background-image: url("../img/olentzero-postal-05.png");
+  background-repeat: no-repeat;
 }
 
 figure {
