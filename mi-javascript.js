@@ -1,5 +1,6 @@
 function conectar (){
 document.getElementById("servicio").innerHTML=' ';
+document.getElementById("nota").innerHTML=' ';
 document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
 setInterval(respuesta, 5000);
 }

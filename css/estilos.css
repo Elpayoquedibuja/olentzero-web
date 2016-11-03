@@ -85,6 +85,10 @@ script {
   font-size: 26ipx;
 }
 
+#nota {
+  font-size: 110%;
+}
+
 #olentzero-primer-plano {
   text-align: center;
 }
@@ -111,6 +115,10 @@ script {
   width: 90%;
 }
 
+.padding-left-aumentar {
+  padding-left: 6%;
+}
+
 .reducir-texto {
   font-size: 20px;
 }
@@ -125,3 +133,7 @@ script {
   margin-top: 20px;
   margin-bottom: 10px;
   }
+
+.negrita {
+  font-weight: bold;
+}
