@@ -67,8 +67,13 @@ script {
   background-image: url("../img/olentzero-fnd-02.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #C6E9F7;
   padding-left: 2%;
   height: 400px;
+}
+
+#ilustracion-principal {
+  background-color: #D0D2D3;
 }
 
 #nombre {
