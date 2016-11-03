@@ -4,6 +4,7 @@ body {
   color: #1B75BB;
 }
 
+
 h1 {
   font-size: 4rem;
   margin-top: 0;
@@ -50,6 +51,10 @@ script {
   color: white;
 }
 
+#conectando {
+
+}
+
 #formulario {
   padding-left: 2%;
   height: 400px;
@@ -61,6 +66,25 @@ script {
   font-size: 26ipx;
 }
 
+#olentzero-primer-plano {
+  text-align: center;
+}
+
+#olentzero-primer-plano img {
+
+  width: 60%;
+}
+
+#ok {
+  color: #429E12;
+}
+
+.conectando {
+  font-size: 18px;
+  font-family: 'Verdana';
+  width: 90%;
+}
+
 .formulario {
   font-size: 30px;
   font-family: 'Verdana';
@@ -69,6 +93,12 @@ script {
 
 .reducir-texto {
   font-size: 20px;
+}
+
+.respuestas {
+  font-size: 22px;
+  font-family: 'Verdana';
+  width: 90%;
 }
 
 .margin_top {
