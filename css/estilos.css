@@ -16,15 +16,18 @@ h2 {
   font-size: 2rem;
   padding-top: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1, h2 {
     padding-left: 2%;
 }
 
-#olentzero-primer-plano {
-  background-image: url("../img/olentzero-postal-05.png");
+header {
+  background-color: #D0D2D3;
+  background-image: url("../img/olentzero-fnd-01.png");
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 figure {
@@ -61,6 +64,9 @@ script {
 }
 
 #formulario {
+  background-image: url("../img/olentzero-fnd-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-left: 2%;
   height: 400px;
 }
