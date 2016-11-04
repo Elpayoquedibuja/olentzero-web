@@ -41,6 +41,12 @@ figure img {
   width: 100%;
 }
 
+footer {
+  font-family: verdana;
+  background-color: #C6E9F7;
+  padding: 50% 10% 20% 10%;
+}
+
 p {
     font-size: 16px;
 }
@@ -85,12 +91,16 @@ script {
 #icono-carbon-wifi {
   padding-top: 40px;
 }
-#icono-carbon-wifi, #icono-lista-del-olentzero, #icono-etxea-olentzero {
+#icono-carbon-wifi, #icono-lista-del-olentzero, #icono-etxea-olentzero, #icono-regalo {
   text-align: center;
 }
 
 #icono-carbon-wifi img, #icono-lista-del-olentzero img, #icono-etxea-olentzero img {
   width: 70%;
+}
+
+#icono-regalo img {
+  width: 50%;
 }
 
 #ilustracion-principal {
