@@ -191,3 +191,66 @@ script {
 .negrita {
   font-weight: bold;
 }
+
+@media only screen and (min-width: 768px)
+{
+
+h1, h2 {
+  display: inline-block;
+}
+
+h1, h2 {
+  font-size: 6.3rem;
+  padding-left: 0.3em;
+}
+
+#ilustracion-principal, #funcionamiento, #olentzero {
+  display: inline-block;
+}
+
+#ilustracion-principal {
+  vertical-align: top;
+}
+
+#ilustracion-principal, #olentzero {
+  width: 100%;
+}
+
+#olentzero {
+  width: 45%;
+  background-image: url("../img/olentzero-fnd-02.png");
+  background-repeat: no-repeat;
+}
+
+#olentzero, #formulario {
+  display: inline-block;
+}
+
+#olentzero img {
+  width: 100%;
+}
+
+#formulario {
+  width: 50%;
+  vertical-align: top;
+}
+
+#funcionamiento {
+  width: 100%;
+  float: right;
+}
+
+
+.columnas {
+  display: inline-block;
+  width: 30%;
+  height: 700px;
+  vertical-align: top;
+  background-color: yellow;
+  padding-left: 3%;
+}
+
+.sin-padding-left {
+  padding-left: 0;
+}
+} /* cierre del media query */
