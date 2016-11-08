@@ -120,7 +120,8 @@ script {
 }
 
 #neska-txiki img {
-  width: 70%;
+  border-top: solid 1px #D6D4D4;
+  width: 60%;
 }
 
 #nombre {
@@ -160,9 +161,6 @@ script {
   font-family: 'Verdana';
   width: 90%;
 }
-
-
-
 
 .formulario {
   font-size: 24px;
