@@ -233,6 +233,9 @@ h1, h2 {
 #formulario {
   width: 50%;
   vertical-align: top;
+  background-color: #C6E9F7;
+  background-image: url("../img/fnd-2.png");
+  background-repeat: repeat;
 }
 
 #funcionamiento {
