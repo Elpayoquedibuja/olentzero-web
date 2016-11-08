@@ -115,6 +115,14 @@ script {
   padding-bottom: 28px;
 }
 
+#neska-txiki {
+  text-align: center;
+}
+
+#neska-txiki img {
+  width: 70%;
+}
+
 #nombre {
   color: gray;
   font-family: 'verdana';
@@ -152,6 +160,8 @@ script {
   font-family: 'Verdana';
   width: 90%;
 }
+
+
 
 
 .formulario {
