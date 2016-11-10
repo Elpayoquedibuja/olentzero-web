@@ -226,6 +226,7 @@ h1, h2 {
 
 #olentzero {
   width: 45%;
+  padding-top: 0px;
   background-image: url("../img/olentzero-fnd-02.png");
   background-repeat: no-repeat;
 }
@@ -248,8 +249,11 @@ h1, h2 {
 
 #funcionamiento {
   width: 100%;
+  padding-bottom: 0;
   float: right;
 }
+
+
 
 
 .columnas {
