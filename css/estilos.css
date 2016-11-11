@@ -172,6 +172,7 @@ script {
 
 
 #zuzen {
+  margin-top: 120px;
   text-align: center;
 }
 
@@ -191,6 +192,14 @@ script {
 
 .formulario {
   font-size: 24px;
+  font-family: 'Verdana';
+  padding-left: 2%;
+  width: 90%;
+}
+
+.texto {
+  text-align: left;
+  font-size: 18px;
   font-family: 'Verdana';
   padding-left: 2%;
   width: 90%;
@@ -318,6 +327,7 @@ h2 {
 }
 
 #olentzero-responde {
+  text-align: left;
   margin-top: 140px;
 }
 
