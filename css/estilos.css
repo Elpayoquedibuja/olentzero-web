@@ -17,9 +17,10 @@ h2 {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: 'Share Tech Mono', monospace;
 }
 
-h1, h2, h3 {
+h1, h3 {
   font-family: 'verdana';
   padding-left: 4%;
 }
@@ -157,6 +158,14 @@ script {
   width: 60%;
 }
 
+#olentzero-responde {
+  text-align: center;
+}
+
+#olentzero-responde img {
+  width: 90%;
+}
+
 #ok {
   color: #0B681C;
 }
@@ -199,7 +208,7 @@ script {
 }
 
 .margin-bottom-aplicar {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .reducir-texto {
@@ -242,6 +251,8 @@ h1, h2 {
   font-size: 6.3rem;
   padding-left: 0.3em;
 }
+
+
 
 #ilustracion-principal, #funcionamiento, #olentzero {
   display: inline-block;
