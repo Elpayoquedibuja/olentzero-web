@@ -81,6 +81,15 @@ script {
 
 }
 
+#de-la-mano, #tu-mano {
+  display: inline-block;
+  text-align: center;
+}
+
+#de-la-mano img, #tu-mano img {
+  width: 45%
+}
+
 #formulario {
   background-image: url("../img/olentzero-fnd-02.png");
   background-repeat: no-repeat;
@@ -152,6 +161,14 @@ script {
   color: #0B681C;
 }
 
+#zuzen {
+  text-align: center;
+}
+
+#zuzen img {
+  width: 70%;
+}
+
 .color-verde {
   color: #39BDB4;
 }
@@ -169,12 +186,20 @@ script {
   width: 90%;
 }
 
+.padding-bottom {
+  padding-top: 40px;
+}
+
 .padding-left-aumentar {
   padding-left: 6%;
 }
 
 .padding-top {
   padding-top: 40px;
+}
+
+.margin-bottom-aplicar {
+  margin-bottom: 100px;
 }
 
 .reducir-texto {
@@ -199,6 +224,12 @@ script {
 .negrita {
   font-weight: bold;
 }
+
+/* ................................... */
+/* ................................... */
+/* ................................... */
+/* ................................... */
+
 
 @media only screen and (min-width: 768px)
 {
@@ -260,6 +291,15 @@ h1, h2 {
   display: inline-block;
   width: 30%;
   height: 700px;
+  vertical-align: top;
+  background-color: white;
+  padding-left: 3%;
+}
+
+.columnas2 {
+  display: inline-block;
+  width: 45%;
+  height: 400px;
   vertical-align: top;
   background-color: white;
   padding-left: 3%;
