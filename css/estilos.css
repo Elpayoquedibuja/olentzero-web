@@ -170,6 +170,7 @@ script {
   color: #0B681C;
 }
 
+
 #zuzen {
   text-align: center;
 }
@@ -223,6 +224,13 @@ script {
   font-size: 22px;
   font-family: 'Verdana';
   width: 90%;
+}
+
+.subtitulo-principal {
+  font-size: 18px;
+  padding-left: 5%;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .margin_top {
