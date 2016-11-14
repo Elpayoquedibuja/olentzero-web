@@ -13,16 +13,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-top: 0;
-  margin-top: 0;
+  margin-top: 0.5em;
   margin-bottom: 0;
   font-family: 'Share Tech Mono', monospace;
 }
 
+h1, h2, h3 {
+  padding-left: 4%;
+}
+
 h1, h3 {
   font-family: 'verdana';
-  padding-left: 4%;
 }
 
 header {
@@ -82,12 +85,13 @@ script {
 
 }
 
-#de-la-mano, #tu-mano {
+#de-la-mano, #tu-mano, #a-ultima-hora {
   display: inline-block;
   text-align: center;
+  height: auto;
 }
 
-#de-la-mano img, #tu-mano img {
+#de-la-mano img, #tu-mano img, #a-ultima-hora img {
   width: 45%
 }
 
@@ -172,8 +176,10 @@ script {
 
 
 #zuzen {
+  display: block;
   margin-top: 120px;
   text-align: center;
+  width: 100%;
 }
 
 #zuzen img {
@@ -323,11 +329,11 @@ h2 {
 #funcionamiento {
   width: 100%;
   padding-bottom: 0;
-  float: right;
+
 }
 
 #olentzero-responde {
-  text-align: left;
+  text-align: center;
   margin-top: 140px;
 }
 
