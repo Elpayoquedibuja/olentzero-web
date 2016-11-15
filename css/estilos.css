@@ -175,16 +175,29 @@ script {
 }
 
 
-#zuzen {
+#programadora {
   display: block;
-  margin-top: 120px;
+  margin-top: 100px;
   text-align: center;
   width: 100%;
 }
 
-#zuzen img {
-  width: 70%;
+#programadora img {
+  width: 50%;
 }
+
+#programadora header {
+  background-image: url();
+  background-color: white;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
 
 .color-verde {
   color: #39BDB4;
@@ -339,6 +352,41 @@ h2 {
 
 #olentzero-responde img {
   width: 30%;
+}
+
+#programadora {
+  margin-top: 0px;
+}
+
+#programadora img {
+  width: 20%;
+}
+
+#programadora figure {
+  display: inline;
+  vertical-align: top;
+  width: 20%;
+}
+
+#programadora header {
+  display: inline-block;
+  text-align: left;
+  float: right;
+  width: 70%;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-color: white;
+  padding-top: 0;
+  vertical-align: top;
+}
+
+
+
+#programadora {
+  margin-top: 50px;
+  padding-left: 5%;
+  width: 90%;
+  display: inline-block;
 }
 
 
