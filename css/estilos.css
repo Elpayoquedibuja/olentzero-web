@@ -1,3 +1,6 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
 body {
   /*background-color: #BBBDBF;*/
   margin: 0;
@@ -415,6 +418,10 @@ h2 {
   display: inline-block;
 }
 
+#cv-programadora img {
+  width: 70%;
+}
+
 
 .columnas {
   display: inline-block;
@@ -431,6 +438,16 @@ h2 {
   height: 400px;
   vertical-align: top;
   background-color: white;
+  padding-left: 3%;
+}
+
+.columnas-cv {
+  display: inline-block;
+  width: 45%;
+  height: 700px;
+  margin: 1%;
+  vertical-align: top;
+  background-color: yellow;
   padding-left: 3%;
 }
 
