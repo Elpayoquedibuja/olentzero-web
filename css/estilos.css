@@ -189,18 +189,18 @@ script {
 }
 
 
-#programadora {
+#cv-programadora {
   display: block;
   margin-top: 100px;
   text-align: center;
   width: 100%;
 }
 
-#programadora img {
+#cv-programadora img {
   width: 50%;
 }
 
-#programadora header {
+#cv-programadora header {
   background-image: url();
   background-color: white;
   background-repeat: no-repeat;
@@ -372,21 +372,21 @@ h2 {
   width: 30%;
 }
 
-#programadora {
+#cv-programadora {
   margin-top: 0px;
 }
 
-#programadora img {
+#cv-programadora img {
   width: 20%;
 }
 
-#programadora figure {
+#cv-programadora figure {
   display: inline;
   vertical-align: top;
   width: 20%;
 }
 
-#programadora header {
+#cv-programadora header {
   display: inline-block;
   text-align: left;
   float: right;
@@ -400,7 +400,7 @@ h2 {
 
 
 
-#programadora {
+#cv-programadora {
   margin-top: 50px;
   padding-left: 5%;
   width: 90%;
