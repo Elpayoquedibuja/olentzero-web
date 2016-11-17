@@ -258,6 +258,10 @@ script {
   margin-bottom: 60px;
 }
 
+.margin-top-aumentar {
+  margin-top: 120px;
+}
+
 .margin-top-suprimir {
   margin-top: 0;
 }
