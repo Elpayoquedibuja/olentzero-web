@@ -401,7 +401,7 @@ h2 {
   display: inline-block;
   text-align: left;
   float: right;
-  width: 70%;
+  width: 100%;
   background-image: url();
   background-repeat: no-repeat;
   background-color: white;
@@ -413,8 +413,7 @@ h2 {
 
 #cv-programadora {
   margin-top: 50px;
-  padding-left: 5%;
-  width: 90%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -443,7 +442,7 @@ h2 {
 
 .columnas-cv {
   display: inline-block;
-  width: 45%;
+  width: 47%;
   height: 700px;
   margin: 1%;
   vertical-align: top;
