@@ -112,6 +112,7 @@ script {
   display: inline-block;
   text-align: center;
   height: auto;
+  margin-top: 60px;
 }
 
 #de-la-mano img, #tu-mano img, #a-ultima-hora img {
