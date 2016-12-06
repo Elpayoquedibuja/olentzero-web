@@ -118,7 +118,9 @@ script {
   width: 45%;
 }
 
-
+#mucho img {
+  width: 55%;
+}
 
 #formulario {
   background-image: url("../img/olentzero-fnd-02.png");
