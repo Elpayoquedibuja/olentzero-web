@@ -108,15 +108,17 @@ script {
 
 }
 
-#de-la-mano, #tu-mano, #a-ultima-hora {
+#de-la-mano, #tu-mano, #a-ultima-hora, #mucho {
   display: inline-block;
   text-align: center;
   height: auto;
 }
 
 #de-la-mano img, #tu-mano img, #a-ultima-hora img {
-  width: 45%
+  width: 45%;
 }
+
+
 
 #formulario {
   background-image: url("../img/olentzero-fnd-02.png");
