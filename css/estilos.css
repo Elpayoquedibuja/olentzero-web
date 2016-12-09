@@ -59,6 +59,11 @@ figure img {
   width: 100%;
 }
 
+#ilustracion-principal img {
+  width: 160%;
+  margin-left: -160px;
+}
+
 footer {
   font-family: verdana;
   color: white;
@@ -108,7 +113,7 @@ script {
 
 }
 
-#de-la-mano, #tu-mano, #a-ultima-hora, #mucho {
+#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle {
   display: inline-block;
   text-align: center;
   height: auto;
@@ -119,7 +124,7 @@ script {
   width: 45%;
 }
 
-#mucho img {
+#mucho img, #cruzar-la-calle img {
   width: 55%;
 }
 
@@ -367,6 +372,8 @@ h2 {
 #ilustracion-principal, #olentzero {
   width: 100%;
 }
+
+
 
 #olentzero {
   width: 45%;
