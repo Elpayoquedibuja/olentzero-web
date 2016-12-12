@@ -254,6 +254,10 @@ script {
   width: 90%;
 }
 
+.height-auto {
+  height: auto;
+}
+
 .texto {
   text-align: left;
   font-size: 18px;
@@ -292,6 +296,10 @@ script {
 
 .texto-aumentar {
   font-size: 160%;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .respuestas {
@@ -497,6 +505,8 @@ h2 {
   height: auto;
 }
 
+
+
 .sin-padding-left {
   padding-left: 0;
 }
@@ -504,7 +514,8 @@ h2 {
 .subtitulo-principal {
   font-size: 28px;
   padding-left: 3%;
-
 }
+
+
 
 } /* cierre del media query */
