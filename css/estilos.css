@@ -1,5 +1,8 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*
+gris: #E0E0DA;
+*/
 
 body {
   /*background-color: #BBBDBF;*/
@@ -132,7 +135,7 @@ script {
   /*background-image: url("../img/olentzero-fnd-02.png");*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #C6E9F7;
+  background-color: #E0E0DA;
   padding-left: 2%;
   height: auto;
   padding-bottom: 200px;
