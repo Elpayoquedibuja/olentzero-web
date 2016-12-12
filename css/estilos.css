@@ -358,7 +358,9 @@ h2 {
 }
 
 #la-carta {
-  padding-top: 80px;
+  padding-top: 0px;
+  padding-left: 0px;
+  vertical-align: top;
 }
 
 #ilustracion-principal, #funcionamiento, #olentzero {
@@ -370,6 +372,10 @@ h2 {
 }
 
 #ilustracion-principal, #olentzero {
+  width: 100%;
+}
+
+#neska-txiki img {
   width: 100%;
 }
 
@@ -485,6 +491,10 @@ h2 {
   vertical-align: top;
   background-color: yellow;
   padding-left: 3%;
+}
+
+.height-auto {
+  height: auto;
 }
 
 .sin-padding-left {
