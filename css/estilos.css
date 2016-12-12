@@ -68,9 +68,9 @@ footer {
   font-family: verdana;
   color: white;
   text-align: center;
-  background-image: url("../img/olentzero-fnd-02.png");
-  background-color: #C6E9F7;
-  padding: 50% 10% 20% 10%;
+  /*background-image: url("../img/olentzero-fnd-02.png");*/
+  background-color: #808184;
+  padding: 10% 10% 20% 10%;
 }
 
 p {
@@ -233,11 +233,6 @@ script {
 #formulario-grupo {
   background-color: #E0E0DA;
 }
-
-
-
-
-
 
 .color-verde {
   color: #39BDB4;
@@ -416,6 +411,7 @@ h2 {
   padding-bottom: 0;
 
 }
+
 
 #olentzero, #formulario {
   height: 600px;
