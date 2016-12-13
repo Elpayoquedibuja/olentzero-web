@@ -52,7 +52,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 figure {
@@ -124,12 +124,20 @@ script {
   margin-top: 60px;
 }
 
-#de-la-mano img, #tu-mano img, #a-ultima-hora img {
+#de-la-mano img {
   width: 45%;
+}
+
+#tu-mano img {
+  width: 50%;
 }
 
 #mucho img, #cruzar-la-calle img {
   width: 55%;
+}
+
+#a-ultima-hora img {
+  width: 80%;
 }
 
 #formulario {
