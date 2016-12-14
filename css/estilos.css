@@ -117,7 +117,9 @@ script {
 
 }
 
-#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan {
+/* CONSEJOS - - AHOLKUAK */
+
+#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan, #con-certeza, #excepcionalmente {
   display: inline-block;
   text-align: center;
   height: auto;
