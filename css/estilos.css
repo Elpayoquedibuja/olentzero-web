@@ -196,6 +196,11 @@ script {
 #olentzero {
   padding-top: 60px;
   width: 100%;
+  text-align: center;
+}
+
+#olentzero img {
+  width: 60%;
 }
 
 #olentzero-primer-plano {
