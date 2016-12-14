@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -117,14 +117,14 @@ script {
 
 }
 
-#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle {
+#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan {
   display: inline-block;
   text-align: center;
   height: auto;
   margin-top: 60px;
 }
 
-#de-la-mano img {
+#de-la-mano img, #solo-si-faltan img {
   width: 45%;
 }
 
@@ -371,7 +371,7 @@ h1, h2 {
 }
 
 h2 {
-  font-size: 6.3rem;
+  font-size: 5rem;
   padding-left: 0.1em;
   line-height: 6rem;
 }
