@@ -9,14 +9,17 @@ function respuesta (){
 
 }
 
-function desiluminar()
-{
+function desiluminar(){
 
   campo = document.getElementById("nombre");
   campo.style.borderColor = "gray";
   campo.style.borderWidth = "1px";
   campo.style.borderStyle = "solid";
   conectar();
+}
+
+function foco (){
+  var nombre = document.getElementById("nombre").focus();
 }
 
 function validar(){
@@ -28,6 +31,7 @@ function validar(){
     campo.style.borderColor = "red";
     campo.style.borderWidth = "3px";
     campo.style.borderStyle = "solid";
+    foco();
   }
 
   else if(nombre.length > 50) {
