@@ -18,15 +18,26 @@ function desiluminar(){
   conectar();
 }
 
-function foco (){
+function foco(){
   var nombre = document.getElementById("nombre").focus();
+}
+
+function borrarIzena(){
+  document.getElementById("nombre").value = "";
+}
+
+function iluminar (){
+  campo = document.getElementById("nombre");
+  campo.style.borderColor = "red";
+  campo.style.borderWidth = "3px";
+  campo.style.borderStyle = "solid";
 }
 
 function validar(){
   nombre = document.getElementById("nombre").value;
   campo = document.getElementById("nombre");
 
-  if(nombre == "" || nombre == " " || nombre == "   " || nombre == "    " || nombre == "     "){
+  if(nombre == "" || nombre == 0 || /^\s+$/.test(nombre)){
     document.getElementById("conectar").innerHTML='Ups, tienes que escribir un nombre';
     campo.style.borderColor = "red";
     campo.style.borderWidth = "3px";
@@ -34,12 +45,30 @@ function validar(){
     foco();
   }
 
+  else if((/\S+@\S+\.\S+/.test(nombre))){
+    document.getElementById("conectar").innerHTML='Uy, uy, tienes que escribir un nombre REAL';
+  }
+
+  else if((/\S+@/.test(nombre))){
+    document.getElementById("conectar").innerHTML='Uy, uy, ¿por qué su nombre tiene una arroba?';
+    iluminar();
+  }
+
+  else if((/\S+\.\S+/.test(nombre))){
+    document.getElementById("conectar").innerHTML='Uy, uy, ¿Por qué su nombre tiene un punto?';
+  }
+
+  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\S+\/\S+/.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\S+\=\S+/.test(nombre)) || (/\S+\¡\S+/.test(nombre)) || (/\S+\!\S+/.test(nombre)) || (/\S+\*\S+/.test(nombre)) || (/\S+\;\S+/.test(nombre)) || (/\S+\+\S+/.test(nombre)) ){
+    document.getElementById("conectar").innerHTML='No nos ha llegado: ¿Seguro que has escrito bien el nombre?';
+    iluminar();
+  }
+
   else if(nombre.length > 50) {
     document.getElementById("conectar").innerHTML='¿Seguro que has escrito bien el nombre??';
   }
   else {
-    conectar();
-    // desiluminar();
+    // conectar();
+    desiluminar();
 
   }
 }
