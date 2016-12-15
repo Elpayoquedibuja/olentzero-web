@@ -117,6 +117,29 @@ script {
 
 }
 
+#cv-programadora {
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+#cv-programadora img {
+  width: 70%;
+}
+
+#cv-programadora header {
+  background-image: url();
+  background-color: white;
+  background-repeat: no-repeat;
+  padding-top: 18px;
+}
+
+#cv-reposteria img {
+  width: 60%;
+}
+
+
 /* CONSEJOS - - AHOLKUAK */
 
 #de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan, #con-certeza, #excepcionalmente {
@@ -150,6 +173,10 @@ script {
   padding-left: 2%;
   height: auto;
   padding-bottom: 200px;
+}
+
+#formulario-grupo {
+  background-color: #E0E0DA;
 }
 
 #funcionamiento {
@@ -226,32 +253,13 @@ script {
   color: #0B681C;
 }
 
-
-#cv-programadora {
-  display: block;
-  margin-top: 100px;
-  text-align: center;
-  width: 100%;
+#ok, #responder, #conectar {
+  padding-left: 14px;
 }
 
-#cv-programadora img {
-  width: 70%;
-}
 
-#cv-programadora header {
-  background-image: url();
-  background-color: white;
-  background-repeat: no-repeat;
-  padding-top: 18px;
-}
 
-#cv-reposteria img {
-  width: 60%;
-}
 
-#formulario-grupo {
-  background-color: #E0E0DA;
-}
 
 .color-verde {
   color: #39BDB4;
