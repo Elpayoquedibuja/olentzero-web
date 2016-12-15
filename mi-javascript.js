@@ -5,7 +5,7 @@ setInterval(respuesta, 5000);
 function respuesta (){
   document.getElementById("conectar").innerHTML='...';
   document.getElementById("ok").innerHTML='Conexión con la base de datos de OLENTZERO realizada con éxito!!';
-  document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. No os preocupeis"';
+  document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. No os preocupeis y que se vaya a dormir pronto"';
 
 }
 
@@ -58,8 +58,13 @@ function validar(){
     document.getElementById("conectar").innerHTML='Uy, uy, ¿Por qué su nombre tiene un punto?';
   }
 
-  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\S+\/\S+/.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\S+\=\S+/.test(nombre)) || (/\S+\¡\S+/.test(nombre)) || (/\S+\!\S+/.test(nombre)) || (/\S+\*\S+/.test(nombre)) || (/\S+\;\S+/.test(nombre)) || (/\S+\+\S+/.test(nombre)) ){
+  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) ){
     document.getElementById("conectar").innerHTML='No nos ha llegado: ¿Seguro que has escrito bien el nombre?';
+    iluminar();
+  }
+
+  else if((/_/.test(nombre))){
+    document.getElementById("conectar").innerHTML='¿Y esto?';
     iluminar();
   }
 
