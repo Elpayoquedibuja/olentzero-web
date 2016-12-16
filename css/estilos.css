@@ -261,6 +261,14 @@ script {
 
 }
 
+#volver {
+
+  text-align: left;
+}
+#volver img {
+  width: 25%;
+}
+
 
 
 
@@ -322,6 +330,14 @@ script {
 
 .reducir-texto {
   font-size: 70%;
+}
+
+.volver {
+  border-bottom: 1px solid gray;
+  font-size: 2em;
+  font-family: sans-serif;
+  color: gray;
+
 }
 
 .texto-aumentar {
