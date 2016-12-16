@@ -1,13 +1,23 @@
 function conectar (){
 document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
 setInterval(respuesta, 5000);
+// document.getElementById("imagen").innerHTML='<img src="img/luz-01.png" width=50% />';
 }
 function respuesta (){
   document.getElementById("conectar").innerHTML='...';
+  document.getElementById("imagen").innerHTML='<img src="img/luz-02.png" width=50% />';
   document.getElementById("ok").innerHTML='Conexión con la base de datos de OLENTZERO realizada con éxito!!';
   document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. No os preocupeis y que se vaya a dormir pronto"';
 
 }
+
+function respuesta_contratiempo (){
+  document.getElementById("flecha").innerHTML='<img src="img/luz-04.png" width=50% />';
+  document.getElementById("conectar").innerHTML='No nos ha llegado: ¿Seguro que has escrito bien el nombre?';
+  document.getElementById("imagen").innerHTML='<img src="img/luz-03.png" width=50% />';
+  iluminar();
+}
+
 
 function desiluminar(){
 
@@ -37,7 +47,7 @@ function validar(){
   nombre = document.getElementById("nombre").value;
   campo = document.getElementById("nombre");
 
-  if(nombre == "" || nombre == 0 || /^\s+$/.test(nombre)){
+  if(nombre == "" || nombre == 0 || /^\s+$/.test(nombre) || nombre == null ) {
     document.getElementById("conectar").innerHTML='Ups, tienes que escribir un nombre';
     campo.style.borderColor = "red";
     campo.style.borderWidth = "3px";
@@ -58,9 +68,9 @@ function validar(){
     document.getElementById("conectar").innerHTML='Uy, uy, ¿Por qué su nombre tiene un punto?';
   }
 
-  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) ){
-    document.getElementById("conectar").innerHTML='No nos ha llegado: ¿Seguro que has escrito bien el nombre?';
-    iluminar();
+  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) || (/\$/.test(nombre))  ){
+    document.getElementById("conectar").innerHTML='...';
+    setInterval(respuesta_contratiempo, 5000);
   }
 
   else if((/_/.test(nombre))){

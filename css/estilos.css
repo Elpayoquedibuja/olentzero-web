@@ -198,6 +198,10 @@ script {
   width: 70%;
 }
 
+#imagen {
+  width: 100%;
+}
+
 #ilustracion-principal {
   background-color: #D0D2D3;
   padding-bottom: 28px;
@@ -254,8 +258,10 @@ script {
 }
 
 #ok, #responder, #conectar {
-  
+
 }
+
+
 
 
 
