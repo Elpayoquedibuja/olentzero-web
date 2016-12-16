@@ -96,7 +96,7 @@ script {
 }
 
 #btn_confirmar {
-  background-color: #39BDB4;
+  background-color: #49BBC1; /*#39BDB4;*/
   border-radius: 18px;
   margin-top: 2%;
   width: 200px;
@@ -254,7 +254,7 @@ script {
 }
 
 #ok {
-  color: #0B681C;
+  color: #E94E1B;
 }
 
 #ok, #responder, #conectar {

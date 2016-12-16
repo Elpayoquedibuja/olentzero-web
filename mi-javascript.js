@@ -1,31 +1,58 @@
+var contador = 1;
+var div_Flecha = document.getElementById("flecha");
+var div_Imagen = document.getElementById("imagen");
+var p_Ok = document.getElementById("ok");
+var p_responder = document.getElementById("responder");
 function conectar (){
 document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
+console.log("conectar");
 setInterval(respuesta, 5000);
+console.log("conectar2");
 // document.getElementById("imagen").innerHTML='<img src="img/luz-01.png" width=50% />';
 }
 function respuesta (){
+  div_Flecha.style.display = "none";
+  div_Imagen.style.display = "block";
+  p_Ok.style.display = "block";
+  p_responder.style.display = "block";
+  //document.getElementById("flecha").innerHTML='<img src="img/luz-04.png" width=0% />';
   document.getElementById("conectar").innerHTML='...';
   document.getElementById("imagen").innerHTML='<img src="img/luz-02.png" width=50% />';
-  document.getElementById("ok").innerHTML='Conexión con la base de datos de OLENTZERO realizada con éxito!!';
-  document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. No os preocupeis y que se vaya a dormir pronto"';
+  document.getElementById("ok").innerHTML='¡Conexión con la base de datos de OLENTZERO realizada con éxito!';
+  console.log(contador);
+  document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. ¡No os preocupéis! Que se vaya a dormir prontito (muy importante)"...';
+  console.log("respuesta");
+  contador = 1 + contador;
 
 }
 
 function respuesta_contratiempo (){
+  iluminar();
+  div_Flecha.style.display = "block";
+  div_Imagen.style.display = "block";
+  console.log("inicio-respuesta-contratiempo");
   document.getElementById("flecha").innerHTML='<img src="img/luz-04.png" width=50% />';
   document.getElementById("conectar").innerHTML='No nos ha llegado: ¿Seguro que has escrito bien el nombre?';
   document.getElementById("imagen").innerHTML='<img src="img/luz-03.png" width=50% />';
-  iluminar();
+  console.log("respuesta_contratiempo");
+  contador = contador + 1;
+  console.log(contador);
+  console.log("fin-respuesta-contratiempo");
+  // iluminar();
+}
+
+function adios(){
+  console.log("Adios");
 }
 
 
 function desiluminar(){
 
-  campo = document.getElementById("nombre");
+
   campo.style.borderColor = "gray";
   campo.style.borderWidth = "1px";
   campo.style.borderStyle = "solid";
-  conectar();
+  // conectar();
 }
 
 function foco(){
@@ -44,8 +71,14 @@ function iluminar (){
 }
 
 function validar(){
+  document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
+  div_Flecha.style.display = "none";
+  div_Imagen.style.display = "none";
+  p_Ok.style.display = "none";
+  p_responder.style.display = "none";
   nombre = document.getElementById("nombre").value;
   campo = document.getElementById("nombre");
+  console.log("Entro en la función VALIDAR");
 
   if(nombre == "" || nombre == 0 || /^\s+$/.test(nombre) || nombre == null ) {
     document.getElementById("conectar").innerHTML='Ups, tienes que escribir un nombre';
@@ -56,7 +89,9 @@ function validar(){
   }
 
   else if((/\S+@\S+\.\S+/.test(nombre))){
-    document.getElementById("conectar").innerHTML='Uy, uy, tienes que escribir un nombre REAL';
+    document.getElementById("conectar").innerHTML='Uy, uy, tienes que escribir su nombre... (no su dirección de correo electrónico).';
+    iluminar();
+    foco();
   }
 
   else if((/\S+@/.test(nombre))){
@@ -68,9 +103,9 @@ function validar(){
     document.getElementById("conectar").innerHTML='Uy, uy, ¿Por qué su nombre tiene un punto?';
   }
 
-  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) || (/\$/.test(nombre))  ){
-    document.getElementById("conectar").innerHTML='...';
-    setInterval(respuesta_contratiempo, 5000);
+  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) || (/\$/.test(nombre)) || (/\·/.test(nombre)) || (/\%/.test(nombre)) || (/\&/.test(nombre)) ){
+    document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
+    setTimeout(respuesta_contratiempo, 5000);
   }
 
   else if((/_/.test(nombre))){
@@ -83,6 +118,8 @@ function validar(){
   }
   else {
     // conectar();
+    document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
+    setTimeout(respuesta, 5000);
     desiluminar();
 
   }
