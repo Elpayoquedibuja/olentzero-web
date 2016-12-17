@@ -55,6 +55,11 @@ header {
   padding-top: 10px;
 }
 
+#principal-2 header {
+  background-color: #EBE7DF;
+  background-image: url("../img/olentzero-2-0x1.png");
+}
+
 figure {
   margin: 0;
 }
