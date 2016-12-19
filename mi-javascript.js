@@ -3,6 +3,12 @@ var div_Flecha = document.getElementById("flecha");
 var div_Imagen = document.getElementById("imagen");
 var p_Ok = document.getElementById("ok");
 var p_responder = document.getElementById("responder");
+
+function borrarcampo(){
+  var campo = document.getElementById("nombre");
+   nombre.value = "";
+}
+
 function conectar (){
 document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
 console.log("conectar");
