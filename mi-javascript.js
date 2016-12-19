@@ -3,6 +3,12 @@ var div_Flecha = document.getElementById("flecha");
 var div_Imagen = document.getElementById("imagen");
 var p_Ok = document.getElementById("ok");
 var p_responder = document.getElementById("responder");
+
+function borrarCampo(){
+  var campo = document.getElementById("nombre");
+   nombre.value = "";
+}
+
 function conectar (){
 document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
 console.log("conectar");
@@ -103,7 +109,7 @@ function validar(){
     document.getElementById("conectar").innerHTML='Uy, uy, ¿Por qué su nombre tiene un punto?';
   }
 
-  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) || (/\$/.test(nombre)) || (/\·/.test(nombre)) || (/\%/.test(nombre)) || (/\&/.test(nombre)) || (/\>/.test(nombre)) || (/\</.test(nombre)) || (/\3/.test(nombre)) || (/\4/.test(nombre)) || (/\5/.test(nombre)) || (/\6/.test(nombre)) || (/\ç/.test(nombre)) || (/\8/.test(nombre)) || (/\9/.test(nombre)) || (/\0/.test(nombre)) || (!/^[a-z][a-z]*/.test(nombre)) ){
+  else if( (/\S+\,\S+/.test(nombre)) || (/\S+\€\S+/.test(nombre)) || (/\S+\$\S+/.test(nombre)) || (/\//.test(nombre)) || (/\S+\(\S+/.test(nombre)) || (/\S+\)\S+/.test(nombre)) || (/\=/.test(nombre)) || (/\¡/.test(nombre)) || (/\!/.test(nombre)) || (/\*/.test(nombre)) || (/\;/.test(nombre)) || (/\+/.test(nombre)) || (/\_/.test(nombre)) || (/\$/.test(nombre)) || (/\·/.test(nombre)) || (/\%/.test(nombre)) || (/\&/.test(nombre)) || (/\>/.test(nombre)) || (/\</.test(nombre)) || (/\3/.test(nombre)) || (/\4/.test(nombre)) || (/\5/.test(nombre)) || (/\6/.test(nombre)) || (/\ç/.test(nombre)) || (/\8/.test(nombre)) || (/\9/.test(nombre)) || (/\0/.test(nombre)) ){
     document.getElementById("conectar").innerHTML='Conectando con la base de datos de OLENTZERO...';
     setTimeout(respuesta_contratiempo, 5000);
   }
