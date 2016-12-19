@@ -94,7 +94,7 @@ nav {
   text-align: center;
   padding-right: 0px;
   margin-right: 0px;
-  height: 100px;
+  height: auto;
   width: 100%;
 
   padding-bottom: 200px;
@@ -105,6 +105,11 @@ nav {
 nav p {
   font-size: 2rem;
   margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+nav img {
+  width: 20%;
 }
 
 
