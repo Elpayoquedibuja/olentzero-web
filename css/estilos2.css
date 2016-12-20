@@ -181,8 +181,12 @@ script {
   width: 40%;
 }
 
-#aita-y-ama img, #a-ultima-hora img, #excepcionalmente img, #con-certeza img {
+#aita-y-ama img, #excepcionalmente img, #con-certeza img {
   width: 55%;
+}
+
+#a-ultima-hora img {
+  width: 50%;
 }
 
 #ilustracion-principal {
