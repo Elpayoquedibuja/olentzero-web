@@ -160,6 +160,11 @@ script {
 
 
 /* CONSEJOS - - AHOLKUAK */
+/* CONSEJOS - - AHOLKUAK */
+/* CONSEJOS - - AHOLKUAK */
+/* CONSEJOS - - AHOLKUAK */
+/* CONSEJOS - - AHOLKUAK */
+/* CONSEJOS - - AHOLKUAK */
 
 #de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan, #con-certeza, #excepcionalmente, #aita-y-ama {
   display: inline-block;
@@ -168,11 +173,11 @@ script {
   margin-top: 60px;
 }
 
-#de-la-mano img, #solo-si-faltan img, #cruzar-la-calle img {
+#solo-si-faltan img, #cruzar-la-calle img {
   width: 45%;
 }
 
-#tu-mano img {
+#tu-mano img, #de-la-mano img {
   width: 40%;
 }
 
