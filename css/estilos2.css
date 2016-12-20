@@ -8,6 +8,7 @@ body {
   /*background-color: #BBBDBF;*/
   margin: 0;
   color: #1B75BB;
+
 }
 
 
@@ -167,15 +168,15 @@ script {
   margin-top: 60px;
 }
 
-#de-la-mano img, #solo-si-faltan img, #excepcionalmente img, #cruzar-la-calle img, #con-certeza img {
+#de-la-mano img, #solo-si-faltan img, #cruzar-la-calle img {
   width: 45%;
 }
 
 #tu-mano img {
-  width: 50%;
+  width: 40%;
 }
 
-#aita-y-ama img, #a-ultima-hora img {
+#aita-y-ama img, #a-ultima-hora img, #excepcionalmente img, #con-certeza img {
   width: 55%;
 }
 
