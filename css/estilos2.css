@@ -12,7 +12,7 @@ body {
 
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -20,9 +20,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding-top: 0;
-  margin-top: 10px;
+  margin-top: 4px;
   margin-bottom: 5px;
   line-height: 1rem;
 
@@ -38,12 +38,14 @@ h3 {
   font-family: 'Share Tech Mono', monospace;
 }
 
-h1, h2, h3 {
-  padding-left: 4%;
+h1, h2 {
+  /*color: #008D36;*/
 }
 
 h1, h2, h3 {
-  font-family: 'verdana';
+  font-family: 'Share Tech Mono', monospace;
+  text-align: right;
+  margin-right: 8%;
 }
 
 header {
@@ -53,13 +55,9 @@ header {
   background-size: 100% auto;
   width: 100%;
   padding-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 
-#principal-2 header {
-  background-color: #EBE7DF;
-  background-image: url("../img/olentzero-2-0x1.png");
-}
 
 figure {
   margin: 0;
@@ -69,10 +67,7 @@ figure img {
   width: 100%;
 }
 
-#ilustracion-principal img {
-  width: 100%;
 
-}
 
 footer {
   font-family: verdana;
@@ -91,6 +86,11 @@ txt_confirmar {
   height: 120px;
 }
 
+nav {
+  padding-top: 100px;
+  text-align: center;
+}
+
 
 script {
   color: red;
@@ -101,6 +101,11 @@ script {
   width: 50%;
 }
 
+#ilustracion-principal img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 #btn_confirmar {
   background-color: #49BBC1; /*#39BDB4;*/
   border-radius: 18px;
@@ -109,6 +114,15 @@ script {
   color: white;
   height: 80px;
 }
+
+#cacao {
+  text-align: center;
+}
+
+#cacao img {
+  width: 20%;
+}
+
 
 #carta {
   text-align: left;
@@ -175,6 +189,8 @@ script {
   width: 100%;
 }
 
+
+
 #formulario {
   /*background-image: url("../img/olentzero-fnd-02.png");*/
   background-repeat: no-repeat;
@@ -214,7 +230,7 @@ script {
 
 #ilustracion-principal {
   background-color: #D0D2D3;
-  padding-bottom: 28px;
+  padding-bottom: 18px;
 }
 
 #neska-txiki {
@@ -269,6 +285,11 @@ script {
 
 #ok, #responder, #conectar {
 
+}
+
+#principal-2 header {
+  background-color: #EBE7DF;
+  background-image: url("../img/olentzero-2-0x1.png");
 }
 
 #volver {
@@ -405,7 +426,6 @@ body {
 
 h1 {
   font-size: 6.3rem;
-  padding-left: 0.1em;
   text-align: left;
   line-height: 6rem;
 }
@@ -415,12 +435,11 @@ h1, h2 {
 }
 
 h1, h2 {
-  padding-left: 0.3em;
+  padding-left: 4%;
 }
 
 h2 {
   font-size: 2rem;
-  padding-left: 0.1em;
   line-height: 6rem;
 }
 
@@ -436,6 +455,7 @@ h2 {
 
 #ilustracion-principal {
   vertical-align: top;
+  padding-bottom: 58px;
 }
 
 #olentzero {
@@ -443,7 +463,8 @@ h2 {
 }
 
 #ilustracion-principal {
-  width: 50%;
+  width: 100%;
+  padding-bottom: 10px;
 }
 
 #neska-txiki img {
