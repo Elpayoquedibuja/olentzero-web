@@ -328,6 +328,10 @@ script {
   height: auto;
 }
 
+.formulario {
+  width: 100%;
+}
+
 .texto {
   text-align: left;
   font-size: 18px;
