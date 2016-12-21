@@ -91,6 +91,28 @@ nav {
   text-align: center;
 }
 
+nav {
+  text-align: center;
+  padding-right: 0px;
+  margin-right: 0px;
+  height: auto;
+  width: 100%;
+
+  padding-bottom: 200px;
+  font-family: sans-serif;
+
+}
+
+nav p {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+nav img {
+  width: 40%;
+}
+
 
 script {
   color: red;
@@ -126,7 +148,7 @@ script {
 
 #carta {
   text-align: left;
-  padding-left: 4%;
+  padding-left: 10%;
 }
 
 #carta img{
@@ -418,6 +440,13 @@ script {
   font-weight: bold;
 }
 
+.txiki-titulo {
+  font-family: 'Aref Ruqaa';
+  font-size: 40px;
+  border: 0px solid gray;
+  text-align: center;
+}
+
 /* ................................... */
 /* ................................... */
 /* ................................... */
@@ -447,7 +476,7 @@ h1 {
 }
 
 h1, h2 {
-  display: inline-block;
+  display: block;
 }
 
 h1, h2 {
@@ -462,6 +491,12 @@ h2 {
   margin-top: 0px;
   padding-top: 0px;
 }
+
+section article {
+  border: 1px solid #D3D1D1;
+
+}
+
 
 #la-carta {
   padding-top: 0px;
@@ -578,19 +613,6 @@ h2 {
   width: 70%;
 }
 
-section article {
-  border: 1px solid gray;
-
-}
-
-.txiki-titulo {
-  border: 0px solid gray;
-  text-align: center;
-}
-
-h1 .txiki-titulo {
-  text-align: center;
-}
 
 #de-la-mano, #tu-mano{
   padding-top: 0px;
@@ -669,6 +691,12 @@ h1 .txiki-titulo {
   font-size: 28px;
   padding-left: 4%;
   text-align: left;
+}
+
+.txiki-titulo {
+  font-size: 40px;
+  border: 0px solid gray;
+  text-align: center;
 }
 
 
