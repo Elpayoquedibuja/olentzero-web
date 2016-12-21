@@ -166,7 +166,7 @@ script {
 /* CONSEJOS - - AHOLKUAK */
 /* CONSEJOS - - AHOLKUAK */
 
-#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan, #con-certeza, #excepcionalmente, #aita-y-ama {
+#de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan, #con-certeza, #excepcionalmente, #aita-y-ama, #abrazos, #lo-son, #metro {
   display: inline-block;
   text-align: center;
   height: auto;
@@ -185,7 +185,7 @@ script {
   width: 55%;
 }
 
-#a-ultima-hora img {
+#a-ultima-hora img, #abrazos img, #lo-son img, #metro img {
   width: 50%;
 }
 
@@ -567,6 +567,36 @@ h2 {
 
 #cv-programadora img {
   width: 70%;
+}
+
+section article {
+  border: 1px solid gray;
+
+}
+
+#de-la-mano, #tu-mano{
+  padding-top: 50px;
+  height: 460px;
+}
+
+#a-ultima-hora, #excepcionalmente {
+  padding-top: 50px;
+  height: 780px;
+}
+
+#aita-y-ama, #cruzar-la-calle {
+  padding-top: 50px;
+  height: 630px;
+}
+
+#con-certeza, #metro {
+  padding-top: 50px;
+  height: 780px;
+}
+
+#abrazos, #lo-son {
+  padding-top: 50px;
+  height: 880px;
 }
 
 
