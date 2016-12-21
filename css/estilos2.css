@@ -37,6 +37,7 @@ h3 {
 
 .online {
   font-family: 'Share Tech Mono', monospace;
+  font-size: 2rem;
 }
 
 h1, h2, h3 {
@@ -187,6 +188,10 @@ script {
 
 #a-ultima-hora img, #abrazos img, #lo-son img {
   width: 50%;
+}
+
+#de-la-mano {
+  display: none;
 }
 
 #ilustracion-principal {
@@ -451,7 +456,11 @@ h1, h2 {
 
 h2 {
   font-size: 2rem;
-  line-height: 6rem;
+  line-height: 3rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 #la-carta {
@@ -574,9 +583,27 @@ section article {
 
 }
 
+.txiki-titulo {
+  border: 0px solid gray;
+  text-align: center;
+}
+
+h1 .txiki-titulo {
+  text-align: center;
+}
+
 #de-la-mano, #tu-mano{
-  padding-top: 50px;
-  height: 460px;
+  padding-top: 0px;
+  height: 1000px;
+}
+
+#tu-mano{
+  padding-top: 150px;
+}
+
+#de-la-mano {
+  vertical-align: bottom;
+  display: inline-block;
 }
 
 #a-ultima-hora, #excepcionalmente {
