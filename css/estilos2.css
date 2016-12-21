@@ -177,15 +177,15 @@ script {
   width: 45%;
 }
 
-#tu-mano img, #de-la-mano img {
+#tu-mano img, #de-la-mano img, #con-certeza img {
   width: 40%;
 }
 
-#aita-y-ama img, #excepcionalmente img, #con-certeza img {
+#aita-y-ama img, #excepcionalmente img, #metro img {
   width: 55%;
 }
 
-#a-ultima-hora img, #abrazos img, #lo-son img, #metro img {
+#a-ultima-hora img, #abrazos img, #lo-son img {
   width: 50%;
 }
 
