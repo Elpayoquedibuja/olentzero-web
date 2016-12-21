@@ -328,9 +328,7 @@ script {
   height: auto;
 }
 
-.formulario {
-  width: 100%;
-}
+
 
 .texto {
   text-align: left;
@@ -594,6 +592,10 @@ h2 {
 
 .height-auto {
   height: auto;
+}
+
+.formulario2 {
+  width: 100%;
 }
 
 

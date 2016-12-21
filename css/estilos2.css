@@ -677,11 +677,15 @@ section article {
   padding-left: 3%;
 }
 
+.formulario2 {
+  width: 100%;
+}
+
 .height-auto {
   height: auto;
 }
 
-.formulario {
+nav .formulario {
   width: 100%;
 }
 
