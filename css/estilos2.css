@@ -282,7 +282,7 @@ script {
 }
 
 #neska-txiki img {
-  border-top: solid 1px #D6D4D4;
+
   width: 60%;
 }
 
@@ -507,8 +507,12 @@ h2 {
 }
 
 section article {
-  border: 1px solid #D3D1D1;
 
+
+}
+
+#tu-mano, #excepcionalmente, #cruzar-la-calle, #metro, #lo-son {
+  border-left: 1px solid #EDEDED;
 }
 
 
