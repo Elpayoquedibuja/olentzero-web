@@ -244,10 +244,7 @@ script {
   text-align: center;
 }
 
-#neska-txiki img {
-  border-top: solid 1px #D6D4D4;
-  width: 60%;
-}
+
 
 #nombre {
   color: gray;
@@ -567,6 +564,17 @@ h2 {
 
 #cv-programadora img {
   width: 70%;
+}
+
+#la-carta, #carbonera, #consulta {
+  border-right: 1px solid #EDEDED;
+
+}
+
+
+#nafarroa, #contratiempo, #tiempo {
+  margin-top: 20px;
+  border-right: 1px solid #EDEDED;
 }
 
 
