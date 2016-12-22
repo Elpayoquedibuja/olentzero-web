@@ -201,9 +201,10 @@ script {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #E0E0DA;
-  padding-left: 2%;
+
   height: auto;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 #formulario-grupo {
@@ -322,6 +323,12 @@ script {
   font-family: 'Verdana';
   padding-left: 2%;
   width: 90%;
+
+}
+
+.formulario2 {
+  width: 100%;
+  padding-left: 0;
 }
 
 .height-auto {
@@ -495,6 +502,7 @@ h2 {
   background-repeat: repeat;
   */
   padding-bottom: 0;
+
 
 }
 

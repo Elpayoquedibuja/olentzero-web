@@ -216,6 +216,15 @@ script {
   display: none;
 }
 
+#eguzkilore {
+  text-align: center;
+  width: 100%;
+}
+
+#eguzkilore img {
+  width: 40%;
+}
+
 #ilustracion-principal {
   display:block;
 }
@@ -359,6 +368,11 @@ script {
   font-family: 'Verdana';
   padding-left: 2%;
   width: 90%;
+}
+
+.formulario2 {
+  width: 100%;
+  padding-left: 0;
 }
 
 .height-auto {
