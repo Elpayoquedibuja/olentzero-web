@@ -212,6 +212,10 @@ script {
   width: 50%;
 }
 
+#escribe img {
+  width: 55%;
+}
+
 #de-la-mano {
   display: none;
 }
