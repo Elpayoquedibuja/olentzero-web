@@ -10,32 +10,45 @@ body {
   color: #1B75BB;
 }
 
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+footer {
+  background-color: #808184;
+  color: white;
+  font-family: verdana;
+  padding: 10% 10% 20% 10%;
+  text-align: center;
+  /*background-image: url("../img/olentzero-fnd-02.png");*/
+}
+
 
 h1 {
   font-size: 3.5rem;
-  padding-top: 0;
+  line-height: 3.5rem;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 3.5rem;
+  padding-top: 0;
 }
 
 h2 {
   font-size: 1rem;
-  padding-top: 0;
+  line-height: 1rem;
   margin-top: 10px;
   margin-bottom: 5px;
-  line-height: 1rem;
+  padding-top: 0;
 
 }
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 0;
   margin-bottom: 15px;
-}
-
-.online {
-  font-family: 'Share Tech Mono', monospace;
+  margin-top: 0;
 }
 
 h1, h2, h3 {
@@ -51,8 +64,8 @@ header {
   background-image: url("../img/olentzero-fnd-01.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  width: 100%;
   padding-top: 10px;
+  width: 100%;
 }
 
 #principal-2 header {
@@ -60,34 +73,12 @@ header {
   background-image: url("../img/olentzero-2-0x1.png");
 }
 
-figure {
-  margin: 0;
-}
-
-figure img {
-  width: 100%;
-}
-
 #ilustracion-principal img {
   width: 100%;
-
-}
-
-footer {
-  font-family: verdana;
-  color: white;
-  text-align: center;
-  /*background-image: url("../img/olentzero-fnd-02.png");*/
-  background-color: #808184;
-  padding: 10% 10% 20% 10%;
 }
 
 p {
-    font-size: 16px;
-}
-
-txt_confirmar {
-  height: 120px;
+  font-size: 16px;
 }
 
 nav {
@@ -112,6 +103,9 @@ nav img {
   width: 20%;
 }
 
+txt_confirmar {
+  height: 120px;
+}
 
 script {
   color: red;
@@ -125,15 +119,15 @@ script {
 #btn_confirmar {
   background-color: #49BBC1; /*#39BDB4;*/
   border-radius: 18px;
-  margin-top: 2%;
-  width: 200px;
   color: white;
   height: 80px;
+  margin-top: 2%;
+  width: 200px;
 }
 
 #carta {
-  text-align: left;
   padding-left: 10%;
+  text-align: left;
 }
 
 #carta img{
@@ -156,8 +150,8 @@ script {
 }
 
 #cv-programadora header {
-  background-image: url();
   background-color: white;
+  background-image: url();
   background-repeat: no-repeat;
   padding-top: 18px;
 }
@@ -171,9 +165,9 @@ script {
 
 #de-la-mano, #tu-mano, #a-ultima-hora, #mucho, #cruzar-la-calle, #solo-si-faltan, #con-certeza, #excepcionalmente, #aita-y-ama {
   display: inline-block;
-  text-align: center;
   height: auto;
   margin-top: 60px;
+  text-align: center;
 }
 
 #de-la-mano img, #solo-si-faltan img, #excepcionalmente img, #cruzar-la-calle img, #con-certeza img {
@@ -198,10 +192,9 @@ script {
 
 #formulario {
   /*background-image: url("../img/olentzero-fnd-02.png");*/
+  background-color: #E0E0DA;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #E0E0DA;
-
   height: auto;
   padding-bottom: 200px;
   text-align: center;
@@ -213,8 +206,8 @@ script {
 }
 
 #funcionamiento {
-  padding-top: 40px;
   padding-bottom: 90px;
+  padding-top: 40px;
 }
 #icono-carbon-wifi {
   padding-top: 40px;
@@ -266,8 +259,8 @@ script {
 
 #olentzero {
   padding-top: 60px;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 #olentzero img {
@@ -279,7 +272,6 @@ script {
 }
 
 #olentzero-primer-plano img {
-
   width: 60%;
 }
 
@@ -307,14 +299,10 @@ script {
 
   text-align: left;
 }
+
 #volver img {
   width: 25%;
 }
-
-
-
-
-
 
 
 .color-verde {
@@ -336,26 +324,45 @@ script {
 }
 
 .formulario2 {
-  width: 100%;
   padding-left: 0;
+  width: 100%;
 }
 
 .height-auto {
   height: auto;
 }
 
-
-
 .texto {
-  text-align: left;
-  font-size: 18px;
   font-family: 'Verdana';
+  font-size: 18px;
+  text-align: left;
   padding-left: 2%;
   width: 90%;
 }
 
 .padding-bottom {
   padding-top: 40px;
+}
+
+.margin-bottom-aplicar {
+  margin-bottom: 60px;
+}
+
+.margin_top {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  }
+
+.margin-top-aumentar {
+  margin-top: 120px;
+}
+
+.margin-top-suprimir {
+  margin-top: 0;
+}
+
+.negrita {
+  font-weight: bold;
 }
 
 .padding-left-aumentar {
@@ -366,28 +373,8 @@ script {
   padding-top: 40px;
 }
 
-.margin-bottom-aplicar {
-  margin-bottom: 60px;
-}
-
-.margin-top-aumentar {
-  margin-top: 120px;
-}
-
-.margin-top-suprimir {
-  margin-top: 0;
-}
-
 .reducir-texto {
   font-size: 70%;
-}
-
-.volver {
-  border-bottom: 1px solid gray;
-  font-size: 2em;
-  font-family: sans-serif;
-  color: gray;
-
 }
 
 .texto-aumentar {
@@ -396,6 +383,10 @@ script {
 
 .text-align-left {
   text-align: left;
+}
+
+.online {
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .respuestas {
@@ -407,19 +398,19 @@ script {
 .subtitulo-principal {
   font-size: 18px;
   padding-left: 5%;
+  margin-bottom: 0px;
   margin-top: 0;
   padding-bottom: 10px;
-  margin-bottom: 0px;
 }
 
-.margin_top {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  }
+.volver {
+  border-bottom: 1px solid gray;
+  color: gray;
+  font-size: 2em;
+  font-family: sans-serif;
 
-.negrita {
-  font-weight: bold;
 }
+
 
 /* ................................... */
 /* ................................... */
@@ -435,19 +426,19 @@ html {
 }
 
 body {
-  max-width: 900px;
-  margin: 0 auto 0 auto;
-  border-top: 0;
-  border-left: 1px solid gray;
   border-bottom: 0;
+  border-left: 1px solid gray;
   border-right: 1px solid gray;
+  border-top: 0;
+  margin: 0 auto 0 auto;
+  max-width: 900px;
 }
 
 h1 {
   font-size: 6.3rem;
+  line-height: 6rem;
   padding-left: 0.1em;
   text-align: left;
-  line-height: 6rem;
 }
 
 h1, h2 {
@@ -460,86 +451,10 @@ h1, h2 {
 
 h2 {
   font-size: 2rem;
-  padding-left: 4%;
   line-height: 6rem;
+  padding-left: 4%;
   text-align: left;
   width: 100%;
-}
-
-#la-carta {
-  padding-top: 0px;
-  padding-left: 0px;
-  vertical-align: top;
-}
-
-#ilustracion-principal, #funcionamiento, #olentzero {
-  display: inline-block;
-}
-
-#ilustracion-principal {
-  vertical-align: top;
-}
-
-#ilustracion-principal, #olentzero {
-  width: 100%;
-}
-
-#neska-txiki img {
-  width: 100%;
-}
-
-
-
-#olentzero {
-  width: 45%;
-  padding-top: 0px;
-  /*background-image: url("../img/olentzero-fnd-02.png");*/
-  background-repeat: no-repeat;
-}
-
-#olentzero, #formulario {
-  display: inline-block;
-}
-
-#olentzero img {
-  width: 100%;
-}
-
-#formulario {
-  width: 50%;
-  vertical-align: top;
-  background-color: #E0E0DA;
-  /*background-image: url("../img/fnd-2.png");
-  background-repeat: repeat;
-  */
-  padding-bottom: 0;
-
-
-}
-
-
-#olentzero, #formulario {
-  height: 600px;
-  padding-bottom: 100px;
-}
-
-#formulario {
-  height: auto;
-}
-
-#funcionamiento {
-  width: 100%;
-  padding-bottom: 100px;
-
-}
-
-#olentzero-responde {
-  text-align: center;
-  margin-top: 140px;
-}
-
-#olentzero-responde img {
-  width: 80%;
 }
 
 #cv-programadora {
@@ -548,6 +463,16 @@ h2 {
 
 #cv-programadora img {
   width: 20%;
+}
+
+#cv-programadora {
+  margin-top: 50px;
+  width: 100%;
+  display: inline-block;
+}
+
+#cv-programadora img {
+  width: 70%;
 }
 
 #cv-programadora figure {
@@ -568,16 +493,72 @@ h2 {
   vertical-align: top;
 }
 
+#formulario {
+  background-color: #E0E0DA;
+  padding-bottom: 0;
+  vertical-align: top;
+  width: 50%;
+}
 
+#formulario {
+  height: auto;
+}
 
-#cv-programadora {
-  margin-top: 50px;
+#funcionamiento {
   width: 100%;
+  padding-bottom: 100px;
+
+}
+
+#ilustracion-principal, #funcionamiento, #olentzero {
   display: inline-block;
 }
 
-#cv-programadora img {
-  width: 70%;
+#ilustracion-principal {
+  vertical-align: top;
+}
+
+#ilustracion-principal, #olentzero {
+  width: 100%;
+}
+
+#la-carta {
+  padding-top: 0px;
+  padding-left: 0px;
+  vertical-align: top;
+}
+
+#neska-txiki img {
+  width: 100%;
+}
+
+#olentzero {
+  background-repeat: no-repeat;
+  padding-top: 0px;
+  width: 45%;
+  /*background-image: url("../img/olentzero-fnd-02.png");*/
+}
+
+#olentzero img {
+  width: 100%;
+}
+
+#olentzero, #formulario {
+  display: inline-block;
+}
+
+#olentzero, #formulario {
+  height: 600px;
+  padding-bottom: 100px;
+}
+
+#olentzero-responde {
+  text-align: center;
+  margin-top: 140px;
+}
+
+#olentzero-responde img {
+  width: 80%;
 }
 
 #la-carta, #carbonera, #consulta {
@@ -585,42 +566,38 @@ h2 {
 
 }
 
-
 #nafarroa, #contratiempo, #tiempo {
-  margin-top: 20px;
   border-right: 1px solid #EDEDED;
   height: 500px;
+  margin-top: 20px;
 }
 
-
-
-
 .columnas {
-  display: inline-block;
-  width: 33%;
-  height: 700px;
-  vertical-align: top;
   background-color: white;
+  display: inline-block;
+  height: 700px;
   padding-left: 3%;
+  vertical-align: top;
+  width: 33%;
 }
 
 .columnas2 {
-  display: inline-block;
-  width: 49%;
-  height: 400px;
-  vertical-align: top;
   background-color: white;
+  display: inline-block;
+  height: 400px;
   padding-left: 3%;
+  vertical-align: top;
+  width: 49%;
 }
 
 .columnas-cv {
+  background-color: yellow;
   display: inline-block;
-  width: 47%;
   height: 700px;
   margin: 1%;
-  vertical-align: top;
-  background-color: yellow;
   padding-left: 3%;
+  vertical-align: top;
+  width: 47%;
 }
 
 .height-auto {
@@ -631,8 +608,6 @@ h2 {
   width: 100%;
 }
 
-
-
 .sin-padding-left {
   padding-left: 0;
 }
@@ -642,7 +617,5 @@ h2 {
   padding-left: 4%;
   text-align: left;
 }
-
-
 
 } /* cierre del media query */
