@@ -133,7 +133,7 @@ script {
 
 #carta {
   text-align: left;
-  padding-left: 4%;
+  padding-left: 10%;
 }
 
 #carta img{
@@ -245,9 +245,14 @@ script {
 }
 
 #neska-txiki img {
-  border-top: solid 1px #D6D4D4;
-  width: 60%;
+  width: 70%;
 }
+
+#nombre {
+  height: 100px;
+}
+
+
 
 #nombre {
   color: gray;
@@ -292,6 +297,10 @@ script {
 
 #ok, #responder, #conectar {
 
+}
+
+#siguiente img {
+  width: 50%;
 }
 
 #volver {
@@ -451,8 +460,10 @@ h1, h2 {
 
 h2 {
   font-size: 2rem;
-  padding-left: 0.1em;
+  padding-left: 4%;
   line-height: 6rem;
+  text-align: left;
+  width: 100%;
 }
 
 #la-carta {
@@ -567,6 +578,18 @@ h2 {
 
 #cv-programadora img {
   width: 70%;
+}
+
+#la-carta, #carbonera, #consulta {
+  border-right: 1px solid #EDEDED;
+
+}
+
+
+#nafarroa, #contratiempo, #tiempo {
+  margin-top: 20px;
+  border-right: 1px solid #EDEDED;
+  height: 500px;
 }
 
 

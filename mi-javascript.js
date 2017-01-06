@@ -26,7 +26,11 @@ function respuesta (){
   document.getElementById("imagen").innerHTML='<img src="img/luz-02.png" width=50% />';
   document.getElementById("ok").innerHTML='¡Conexión con la base de datos de OLENTZERO realizada con éxito!';
   console.log(contador);
-  document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. ¡No os preocupéis! Que se vaya a dormir prontito (muy importante)"...';
+  // MENSAJE ANTES DEL 25
+  // document.getElementById("responder").innerHTML='"Sí, su carta le ha llegado correctamente al Olentzero. Y, si su amatxu o su aita no dicen otra cosa, Olentzero pasará por su casa puntualmente la noche del 24 de diciembre. ¡No os preocupéis! Que se vaya a dormir prontito (muy importante)"...';
+  // console.log("respuesta");
+  // FIN DEL MENSAJE 'ANTES DEL 25'
+  document.getElementById("responder").innerHTML='"Sí, su carta le llegó correctamente al Olentzero y ha pasado ya por su casa. Recuérdale el próximo año que se tiene que ir a dormir prontito y que este año tiene que estudiar mucho, ayudar a su aita y a su amatxu, divertirse y ser feliz"...';
   console.log("respuesta");
   contador = 1 + contador;
 
